@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Culinaria';
+    src: url('font/BradoQuena-Regular.ttf'), format(truetype);
+}
+h1, h3{
+    font-family: 'Culinaria', 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 10px;
+}
+li{
+    padding: 3px;
+}
+body{
+    background-color: rgb(117, 111, 103);
+    background-image: url(imagens/imgem.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    max-width: 500px;
+    background-color: rgba(251, 234, 213, 0.984);
+    background-image: url(imagens/logo_massa.png);
+    background-size: 100px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.532);
+}
